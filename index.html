@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="hi">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bharat Siksha - SDG 4: Quality Education</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#1e3a8a">
 </head>
 <body class="bg-gray-50 font-sans">
   
@@ -20,79 +22,10 @@
     <div class="text-center mt-6 bg-white p-6 rounded-xl shadow">
       <h2 class="text-3xl font-bold text-blue-800">Bharat Siksha - Digital Platform</h2>
       <p class="mt-2">Founder: <b>Chandan Kumar</b> | Jamalpur, Bihar, India</p>
-      <p class="mt-2 text-sm text-gray-600">Mission: Connect every out-of-school child with government benefits using Technology + PWA</p>
+      <p class="mt-2 text-sm text-gray-600">Mission: Connect every out-of-school child with government benefits using Technology</p>
       <div class="mt-4 bg-green-100 p-3 rounded-lg">
         <b>Impact Goal:</b> 1 Lakh Students in Bihar by Dec 2026
       </div>
     </div>
 
-    <!-- 4 MAIN BUTTONS -->
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
-      <a href="#student" class="bg-blue-600 hover:bg-blue-700 text-white p-4 rounded-lg text-center shadow">👨‍🎓 Student Registration</a>
-      <a href="#yojna" class="bg-green-600 hover:bg-green-700 text-white p-4 rounded-lg text-center shadow">📜 Govt. Scheme Tracker</a>
-      <a href="#help" class="bg-red-600 hover:bg-red-700 text-white p-4 rounded-lg text-center shadow">🆘 Grievance Redressal</a>
-      <a href="#data" class="bg-purple-600 hover:bg-purple-700 text-white p-4 rounded-lg text-center shadow">📊 Impact Dashboard</a>
-    </div>
-
-    <!-- SECTION 1: STUDENT REGISTRATION -->
-    <section id="student" class="mt-10 bg-white p-6 rounded-xl shadow">
-      <h3 class="text-2xl font-bold text-blue-800 mb-4">👨‍🎓 Student Registration - Digital ID</h3>
-      <p class="text-sm mb-3">Goal: Track out-of-school children and dropouts</p>
-      <form class="space-y-3">
-        <input type="text" placeholder="Student Full Name" class="w-full border p-2 rounded">
-        <input type="text" placeholder="Age + Gender + District" class="w-full border p-2 rounded">
-        <input type="text" placeholder="School Status: In-School / Dropout" class="w-full border p-2 rounded">
-        <input type="text" placeholder="Parent Mobile Number" class="w-full border p-2 rounded">
-        <button type="button" onclick="alert('Data Saved Locally. Server integration in Phase 2')" class="bg-blue-600 text-white px-4 py-2 rounded">Register Student</button>
-      </form>
-    </section>
-
-    <!-- SECTION 2: GOVT SCHEME TRACKER -->
-    <section id="yojna" class="mt-10 bg-white p-6 rounded-xl shadow">
-      <h3 class="text-2xl font-bold text-green-700 mb-4">📜 Govt. Scheme Tracker - SDG 4.1</h3>
-      <div class="space-y-3">
-        <div class="bg-yellow-50 p-3 rounded border-l-4 border-yellow-500">
-          <b>PM POSHAN:</b> Mid-Day Meal. Status: Eligible <a href="#" class="text-blue-600">Apply</a>
-        </div>
-        <div class="bg-yellow-50 p-3 rounded border-l-4 border-yellow-500">
-          <b>Bihar Student Credit Card:</b> Higher Education Loan ₹4 Lakh. <a href="#" class="text-blue-600">Apply</a>
-        </div>
-        <div class="bg-yellow-50 p-3 rounded border-l-4 border-yellow-500">
-          <b>PM Scholarship:</b> ₹10,000/year for 12th Pass. <a href="#" class="text-blue-600">Apply</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- SECTION 3: GRIEVANCE -->
-    <section id="help" class="mt-10 bg-white p-6 rounded-xl shadow text-center">
-      <h3 class="text-2xl font-bold text-red-700 mb-4">🆘 Grievance Redressal - 1 Click</h3>
-      <p>If a child is denied admission or scholarship, report directly</p>
-      <a href="mailto:bharatsiksha.help@gmail.com?subject=Help Needed - Bharat Siksha" 
-         class="inline-block bg-red-500 text-white px-6 py-3 rounded-lg mt-3 font-bold">
-         Email UNO/District Officer
-      </a>
-      <p class="text-sm mt-2">Email: bharatsiksha.help@gmail.com</p>
-    </section>
-
-    <!-- SECTION 4: IMPACT DASHBOARD -->
-    <section id="data" class="mt-10 bg-white p-6 rounded-xl shadow">
-      <h3 class="text-2xl font-bold text-purple-700 mb-4">📊 Impact Dashboard</h3>
-      <div class="grid grid-cols-3 gap-4 text-center">
-        <div class="bg-blue-100 p-3 rounded"><b>500+</b><br>Students Registered</div>
-        <div class="bg-green-100 p-3 rounded"><b>200+</b><br>Scholarships Applied</div>
-        <div class="bg-purple-100 p-3 rounded"><b>50+</b><br>Villages Covered</div>
-      </div>
-      <p class="text-sm mt-3">Data updates automatically. Helps UNO/UNICEF track SDG 4 progress</p>
-    </section>
-
-  </div>
-
-  <!-- FOOTER -->
-  <footer class="bg-gray-800 text-white text-center p-4 mt-10">
-    <p>Jai Hind 🙏 2026</p>
-    <p class="text-sm">Bharat Siksha - Aligned with UN SDG 4: Quality Education</p>
-    <p class="text-sm">Contact: bharatsiksha.help@gmail.com | Jamalpur, Bihar, India</p>
-  </footer>
-
-</body>
-</html>
+    <!--
