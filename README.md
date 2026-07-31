@@ -46,5 +46,5 @@ Ye app sarkari nahi hai. Jankari ke liye hai. Form bharne se pehle official webs
 
 ### **✍️ SIGNATURE**
 <div align="center">
-**Founder:** `[Tumhara Naam]` | **Patna, Bihar** | **Jai Hind 🙏**
+**Founder:** `[Chandan Kumar]` | **Jamalpur, Bihar** | **Jai Hind 🙏**
 </div>
