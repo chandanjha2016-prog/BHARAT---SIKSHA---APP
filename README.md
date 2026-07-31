@@ -38,3 +38,13 @@ git clone https://github.com/aapka-username/bharat-siksha
 cd bharat-siksha
 npm install
 npm run build
+
+
+---
+### **⚠️ DISCLAIMER**
+Ye app sarkari nahi hai. Jankari ke liye hai. Form bharne se pehle official website verify karein.
+
+### **✍️ SIGNATURE**
+<div align="center">
+**Founder:** `[Tumhara Naam]` | **Patna, Bihar** | **Jai Hind 🙏**
+</div>
