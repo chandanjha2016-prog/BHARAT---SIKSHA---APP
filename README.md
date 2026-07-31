@@ -1,29 +1,40 @@
 # 🇮🇳 Bharat Siksha - PWA | भारत शिक्षा
 
-[License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-[Languages](https://img.shields.io/badge/Languages-HI%20EN%20BR%20MA-blue.svg)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Status](https://img.shields.io/badge/Status-100%25%20Free-brightgreen.svg)
+![Languages](https://img.shields.io/badge/Languages-HI%20EN%20BR%20MA-blue.svg)
 
-## **Mission: Koi Bachha Chootna Nahi Chahiye | एक भी बच्चा छूटना नहीं चाहिए**
+## **"Sab Padhe, Sab Aage Badhe"**
+### **Mission: Koi Bachha Chootna Nahi Chahiye | एक भी बच्चा छूटना नहीं चाहिए**
 
 ### **🌍 भाषा चुने / Choose Language**
 `हिन्दी` `English` `भोजपुरी` `मैथिली` `+10 More Coming Soon`
 
 ---
 
-### **Kyun? / Why?**
-Har student tak free, sahi aur tez jankari pahunche. 
-User ko 1 click me jawab mile. Koi pin point problem nahi.
+### **Kyun ye app banayi gayi? / Why?**
+Kyunki paise ho ya na ho, har bachhe tak sahi shiksha aur jankari pahunchni chahiye.
+Is app ka maksad hai: Student, Guardian aur Sarkari Yojna ko 1 jagah laana.
+Taki user ko koi pin point problem na ho.
 
-### **✨ Full Features**
-| Module | Feature | भविष्य |
-| --- | --- | --- |
-| **Student Desk** | Notes, NCERT, Career | AI Doubt, Test |
-| **Guardian Corner** | Routine, Yojna Guide | SMS Alert |
-| **Yojna Hub** | Bihar + Kendra Schemes | Auto Form Fill |
-| **Help Desk** | Keyword se turant solution | Officer ko Direct Mail |
-| **Offline PWA** | 2G me bhi chale, Install ho | Download Center |
+### **✨ Features | विशेषताएं**
 
-### **🚀 2 Min me Deploy**
+#### **Abhi ke Features**
+- [x] **Student Desk**: Class 1-12 Notes, NCERT PDF, Career Guide
+- [x] **Guardian Corner**: Padhai ka routine + kaise support karein
+- [x] **Sarkari Yojna Hub**: Bihar + Kendra ki Yojna step-by-step
+- [x] **1-Click Help**: Problem likho, turant solution pao
+- [x] **100% Free & Offline PWA**: Bina net ke bhi chalega, Install karo
+
+#### **Future Roadmap V1.1 - V2.0**
+- [ ] **AI Doubt Solver** - Photo bhejo, jawab pao
+- [ ] **Job + Skill Certificate Corner**
+- [ ] **Form Auto-Fill + Status Track**
+- [ ] **Voice Support**: Bhojpuri, Maithili Language
+
+### **🚀 Kaise Chalaye / Deploy Kare**
 ```bash
 git clone https://github.com/aapka-username/bharat-siksha
-cd bharat-siksha && npm install && npm run build
+cd bharat-siksha
+npm install
+npm run build
